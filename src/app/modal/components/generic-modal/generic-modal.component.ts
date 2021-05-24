@@ -1,7 +1,7 @@
 import {Component, HostListener, OnInit, ViewChild} from '@angular/core';
 import {CdkPortalOutlet, PortalOutlet, TemplatePortal} from '@angular/cdk/portal';
 
-import {ModalDirective} from 'ngx-bootstrap';
+import {ModalDirective} from 'ngx-bootstrap/modal';
 
 import {GenericModalService} from '../../services/generic-modal.service';
 import {ModalPosition, ModalState} from '../../models';
